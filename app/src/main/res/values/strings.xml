@@ -62,5 +62,11 @@
     <string name="close">Cerrar</string>
     <string name="ok_text">Ok</string>
     <string name="nodata_error">¡No existen datos en la BD, no se puede crear un archivo!</string>
+
+    <!--    Permissions    -->
+    <string name="permission_required_phone">Permiso para ocupar en el télefono</string>
+    <string name="permission_rationale_location">Es necesario acceder a los servicios de  \'lectura/escritura de datos\'.</string>
+    <string name="location_permission_denied">Esta app necesita acceder a los servicios de \'lectura/escritura de datos\'. Por favor intenta nuevamente y otorga el permiso.\nSi el permiso a sido revocado, puede ser activado en configuraciones del sistema &gt; Apps &gt; \'Photosports\'.</string>
+    <string name="permission_required_toast">Se requiere de los permisos de lectura/escritura de datos en el celular.</string>
 </resources>
 
