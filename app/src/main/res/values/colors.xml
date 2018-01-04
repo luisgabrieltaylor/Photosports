@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f8b134</color>
+    <color name="colorPrimaryDark">#cf932a</color>
+    <color name="colorAccent">#F2B800</color>
+    <color name="white">#ffffff</color>
+    <color name="title">#222222</color>
+
+    <color name="s1">#222222</color>
+    <color name="s2">#414141</color>
+    <color name="s3">#868686</color>
+    <color name="s4">#d6d6d6</color>
+
+    <color name="alert">#ff0c0c</color>
+    <color name="upload">#23c111</color>
+    <color name="export">#0b16e4</color>
+</resources>

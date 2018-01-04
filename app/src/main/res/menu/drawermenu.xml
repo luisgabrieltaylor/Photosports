@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_principal"
+        android:id="@+id/nav_item_home"
+        android:icon="@drawable/ic_home"
+        android:orderInCategory="0"/>
+
+    <item android:title="@string/menu_registros"
+        android:id="@+id/nav_item_runners"
+        android:icon="@drawable/ic_people"
+        android:orderInCategory="1"/>
+
+    <item android:title="@string/menu_acerca"
+        android:id="@+id/nav_item_about"
+        android:icon="@drawable/ic_info"
+        android:orderInCategory="2"/>
+
+    <group android:id="@+id/group_settings_id">
+        <item android:title="@string/menu_salir"
+            android:id="@+id/nav_item_exit"
+            android:icon="@drawable/ic_exit_to_app"
+            android:orderInCategory="3"/>
+    </group>
+
+
+
+</menu>

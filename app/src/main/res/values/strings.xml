@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Photosports</string>
+
+    <!-- ABOUT -->
+    <string name="str_no">Si</string>
+    <string name="str_yes">No</string>
+    <string name="toast_PressAgain">Presiona nuevamente para salir de la aplicación</string>
+    <string name="txt_exit_message">Salir?</string>
+    <string name="txt_title_exit">¿Salir de la aplicación?</string>
+    <string name="nav_about_us">Acerca de nosotros</string>
+    <string name="nav_feedback">Sugerencias</string>
+    <string name="contact">Contacto</string>
+    <string name="about">Acerca de nosotros</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="description_detail">"Captura de registros para Photosport, registros en SQLite y mySQL.\n"</string>
+    <string name="about_comments">Sugerencias</string>
+    <string name="about_portafolio">Ver mis trabajos</string>
+    <string name="description">Información</string>
+
+    <!-- MENU -->
+    <string name = "menu_principal">Inicio</string>
+    <string name = "menu_acerca">Acerca de</string>
+    <string name = "menu_registros">Registros</string>
+    <string name = "menu_salir">Salir</string>
+
+    <!-- DRAWER -->
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- ABOUT AND FEEDBACK -->
+
+    <string name="feedback_email">luisgabrieltaylor@gmail.com</string>
+    <string name="feedback_subject">Sugerencias</string>
+    <string name="send_feedback">Enviar sugerencias</string>
+
+    <!-- REGISTER -->
+    <string name="hint_name">Nombre</string>
+    <string name="hint_lastname">Apellido</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_runner">Número de corredor</string>
+    <string name="register">Registrar</string>
+    <string name="error_name">Nombre no valido</string>
+    <string name="empty_name">Nombre vacío</string>
+    <string name="error_lastname">No es un apellido valido</string>
+    <string name="empty_lastname">Apellido vacío</string>
+    <string name="error_phone">No es un teléfono valido</string>
+    <string name="empty_phone">Teléfono vacio</string>
+    <string name="error_email">Email no valido</string>
+    <string name="empty_email">Email vacío</string>
+    <string name="error_runner">Error en el número del corredor</string>
+    <string name="empty_runner">Número de corredor vacío</string>
+    <string name="validation_error">¡Error en el llenado de los datos!</string>
+    <string name="update_message">¡Datos actualizados!</string>
+    <string name="success_register">¡Registro exitoso!</string>
+    <string name="delete_db">Borrar BD</string>
+    <string name="upload_db">Subir BD</string>
+    <string name="export_db">Exportar BD</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="save">Guardar</string>
+    <string name="close">Cerrar</string>
+    <string name="ok_text">Ok</string>
+    <string name="nodata_error">¡No existen datos en la BD, no se puede crear un archivo!</string>
+</resources>
+
