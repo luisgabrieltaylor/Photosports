@@ -105,7 +105,7 @@ public class RunnersFragment extends Fragment{
                 }
         );
 
-        insertFakeData();
+        //insertFakeData();
 
         deleteDB.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
