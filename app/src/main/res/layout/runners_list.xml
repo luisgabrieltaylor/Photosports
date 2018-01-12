@@ -4,8 +4,9 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:configChanges="keyboardHidden|orientation"
     android:background="?android:attr/selectableItemBackground"
-    android:padding="5dip" >
+    android:padding="15dip" >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="#040404"
                 android:typeface="sans"
-                android:textSize="13sp"
+                android:textSize="15sp"
                 android:textStyle="bold"/>
 
             <!-- lastname -->
@@ -30,21 +31,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#505050"
-                android:textSize="13sp"/>
+                android:textSize="15sp"/>
 
             <TextView
                 android:id="@+id/email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#343434"
-                android:textSize="12sp"
+                android:textSize="15sp"
                 android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/phone"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
+                android:textSize="15sp"
                 android:textColor="#585858"
                 android:textStyle="bold"/>
 
@@ -52,7 +53,7 @@
                 android:id="@+id/runner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
+                android:textSize="15sp"
                 android:textColor="#585858"
                 android:textStyle="bold"/>
         </LinearLayout>

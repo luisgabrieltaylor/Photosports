@@ -21,13 +21,13 @@ public class Hosts {
     /**
      * Dirección IP de genymotion o AVD
      */
-    private static final String IP = "";
+    private static final String IP = "laboratorioslcc.com";
     //private static final String IP =  "192.168.10.227";
     /**
      * URLs del Web Service
      */
-    public static final String GET = "http://" + IP + PUERTO_HOST + "/php/pdo/obtener_card_metas.php";
-    //public static final String GET = "http://" + IP + PUERTO_HOST + "/emergencias_coatza/obtener_card_metas.php";
+    public static final String GET = "http://" + IP + PUERTO_HOST + "/photosport/obtener_metas.php";
+    public static final String INSERT = "http://" + IP + PUERTO_HOST + "/photosport/insertar_metas.php";
 
     /**
      * Clave para el valor extra que representa al identificador de una meta

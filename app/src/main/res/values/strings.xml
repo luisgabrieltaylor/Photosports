@@ -62,6 +62,8 @@
     <string name="close">Cerrar</string>
     <string name="ok_text">Ok</string>
     <string name="nodata_error">¡No existen datos en la BD, no se puede crear un archivo!</string>
+    <string name="success_csv">¡Archivo generado!</string>
+    <string name="success_erase">¡BD eliminada!</string>
 
     <!--    Permissions    -->
     <string name="permission_required_phone">Permiso para ocupar en el télefono</string>
