@@ -62,8 +62,9 @@ public class LoginActivity extends Activity {
         if (session.isLoggedIn()) {
             // User is already logged in. Take him to main activity
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-            startActivity(intent);
             finish();
+            startActivity(intent);
+
         }
 
         // Login button Click Event
@@ -161,6 +162,7 @@ public class LoginActivity extends Activity {
                     session.setLogin(true);
                     Intent intent = new Intent(LoginActivity.this,
                             MainActivity.class);
+                    finish();
                     startActivity(intent);
                     break;
 

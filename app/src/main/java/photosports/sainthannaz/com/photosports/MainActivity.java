@@ -77,8 +77,9 @@ public class MainActivity extends AppCompatActivity {
                     session.setLogin(false);
                     // Launching the login activity
                     Intent intent = new Intent(MainActivity.this, LoginActivity.class);
-                    startActivity(intent);
                     finish();
+                    startActivity(intent);
+
                     //FragmentTransaction fragmentTransaction1=FM.beginTransaction();
                     //fragmentTransaction1.replace(R.id.containerView,new TabFragment()).commit();
                 }
