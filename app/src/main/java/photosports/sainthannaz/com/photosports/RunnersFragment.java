@@ -179,11 +179,11 @@ public class RunnersFragment extends Fragment{
         db.addCustomerData("test","test","test@test.com","9211111111","test");
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        refreshData();
-    }
+    //@Override
+    //public void onResume() {
+    //    super.onResume();
+    //    refreshData();
+    //}
 
     public void createCSV(){
         Date date = new Date() ;

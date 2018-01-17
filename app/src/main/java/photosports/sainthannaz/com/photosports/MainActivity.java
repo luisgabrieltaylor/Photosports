@@ -35,8 +35,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         // session manager
         session = new SessionManager(getApplicationContext());
+
         if (!session.isLoggedIn()) {
             logoutUser();
         }
@@ -71,13 +73,12 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (item.getItemId()==R.id.nav_item_exit)
+                {
                     session.setLogin(false);
                     // Launching the login activity
                     Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                     startActivity(intent);
                     finish();
-                {
-
                     //FragmentTransaction fragmentTransaction1=FM.beginTransaction();
                     //fragmentTransaction1.replace(R.id.containerView,new TabFragment()).commit();
                 }
