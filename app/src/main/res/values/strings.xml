@@ -1,5 +1,21 @@
 <resources>
     <string name="app_name">Photosports</string>
+    <!-- LOGIN -->
+    <string name="txt_User">Usuario</string>
+    <string name="txtHint_User">Inserte su usuario</string>
+    <string name="txtHint_Name">Inserte su nombre</string>
+    <string name="txt_Password">Contraseña</string>
+    <string name="txt_IP">IP</string>
+    <string name="txtHint_Password">Inserte su contraseña</string>
+    <string name="txtHint_IP">Inserte la IP del servidor</string>
+    <string name="txtBtn_Login">Ingresar</string>
+    <string name="dialog_checkingcredentials">Revisando sus credenciales de acceso!</string>
+    <string name="error_emailnotvalid">Error! Email no valido</string>
+    <string name="error_ipnotvalid">Error! IP no valida</string>
+    <string name="error_emailempty">Email vacio</string>
+    <string name="error_passwordempty">Password vacio</string>
+    <string name="error_ipempty">IP vacia</string>
+    <string name="error_credentials">Error en los datos, validelos</string>
 
     <!-- ABOUT -->
     <string name="str_no">Si</string>

@@ -29,6 +29,7 @@ public class Hosts {
     public static final String GET = "http://" + IP + PUERTO_HOST + "/photosport/obtener_metas.php";
     public static final String INSERT = "http://" + IP + PUERTO_HOST + "/photosport/insertar_metas.php";
     public static final String GET_EVENTS = "http://" + IP + PUERTO_HOST + "/photosport/obtener_eventos.php";
+    public static final String GET_LOGIN = "http://" + IP + PUERTO_HOST + "/photosport/login.php";
     /**
      * Clave para el valor extra que representa al identificador de una meta
      */

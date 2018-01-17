@@ -18,6 +18,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import photosports.sainthannaz.com.photosports.tools.PermissionUtils;
+import photosports.sainthannaz.com.photosports.tools.SessionManager;
 
 import static java.security.AccessController.getContext;
 
@@ -27,12 +28,18 @@ public class MainActivity extends AppCompatActivity {
     NavigationView navigationView;
     FragmentManager FM;
     FragmentTransaction FT;
+    private SessionManager session;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        // session manager
+        session = new SessionManager(getApplicationContext());
+        if (!session.isLoggedIn()) {
+            logoutUser();
+        }
 
         drawerLayout = findViewById(R.id.drawerLayout);
         navigationView= findViewById(R.id.shitstuff);
@@ -64,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 if (item.getItemId()==R.id.nav_item_exit)
+                    session.setLogin(false);
+                    // Launching the login activity
+                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
                     finish();
                 {
 
@@ -96,15 +107,17 @@ public class MainActivity extends AppCompatActivity {
         actionBarDrawerToggle.syncState();
     }
 
+
     @Override
     public void onBackPressed() {
-        if (back_pressed + 2000 > System.currentTimeMillis()) {
-            super.onBackPressed();
-        } else {
-            Toast.makeText(getBaseContext(), getString(R.string.toast_PressAgain), Toast.LENGTH_SHORT)
-                    .show();
-        }
-        back_pressed = System.currentTimeMillis();
+
+    }
+
+    private void logoutUser() {
+        session.setLogin(false);
+        Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
