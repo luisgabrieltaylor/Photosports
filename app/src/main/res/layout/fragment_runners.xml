@@ -11,7 +11,7 @@
         android:id="@+id/swipeRefresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="8">
+        android:layout_weight="7">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -32,6 +32,8 @@
         android:layout_weight="1"
         android:backgroundTint="@color/export"
         android:textColor="@color/white"
+        android:textSize="10sp"
+
         android:text="@string/export_db"/>
     <Button
         android:id="@+id/btnUpload"
@@ -40,13 +42,17 @@
         android:layout_weight="1"
         android:backgroundTint="@color/upload"
         android:textColor="@color/white"
+        android:textSize="10sp"
+
         android:text="@string/upload_db"/>
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:textSize="10sp"
         android:backgroundTint="@color/alert"
         android:textColor="@color/white"
+
         android:text="@string/delete_db"/>
 </LinearLayout>

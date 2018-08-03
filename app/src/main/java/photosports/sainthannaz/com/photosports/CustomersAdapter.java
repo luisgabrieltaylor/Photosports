@@ -6,6 +6,7 @@ package photosports.sainthannaz.com.photosports;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -64,6 +65,13 @@ public class CustomersAdapter extends RecyclerView.Adapter<CustomersAdapter.MyVi
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
+        if(position%2 == 0){
+            System.out.println("Gris");
+            holder.itemView.setBackgroundColor(0xFFF5F5F5);
+        } else {
+            System.out.println("Blanco");
+            holder.itemView.setBackgroundColor(0xFFFFFFFF);
+        }
         final Customers customers = customersList.get(position);
         holder.name.setText(customers.getcustomer_name());
         holder.lastname.setText(customers.getcustomer_lastname());

@@ -14,4 +14,5 @@
     <color name="alert">#ff0c0c</color>
     <color name="upload">#23c111</color>
     <color name="export">#0b16e4</color>
+    <color name="lightgray">#cacaca</color>
 </resources>

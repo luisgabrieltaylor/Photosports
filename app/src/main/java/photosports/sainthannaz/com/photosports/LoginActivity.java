@@ -16,6 +16,8 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.madx.updatechecker.lib.UpdateRunnable;
+import android.os.Handler;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -57,6 +59,7 @@ public class LoginActivity extends Activity {
         // Dialogo de proceso para el login
         pDialog = new ProgressDialog(this);
         pDialog.setCancelable(false);
+        new UpdateRunnable(this, new Handler()).start();
         session = new SessionManager(getApplicationContext());
 
         if (session.isLoggedIn()) {

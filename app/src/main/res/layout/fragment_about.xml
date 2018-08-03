@@ -37,6 +37,7 @@
                     android:layout_marginRight="15dp"
                     android:layout_marginTop="20dp"
                     android:gravity="center_horizontal"
+                    android:textSize="20sp"
                     android:text="@string/description_detail"/>
 
                 <Button
@@ -47,6 +48,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableLeft="@drawable/ic_chat"
+                    android:textSize="20sp"
                     android:background="?android:attr/selectableItemBackground"
                     android:text="@string/about_comments"/>
 
@@ -59,6 +61,7 @@
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/title"
                     android:drawableLeft="@drawable/ic_star"
+                    android:textSize="20sp"
                     android:background="?android:attr/selectableItemBackground"
                     android:text="@string/about_portafolio"/>
             </LinearLayout>

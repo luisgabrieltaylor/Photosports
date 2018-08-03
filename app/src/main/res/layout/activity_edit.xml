@@ -22,6 +22,7 @@
                 android:singleLine="true"
                 android:inputType="text"
                 whatever:testType="nocheck"
+                android:textSize="15sp"
                 whatever:emptyErrorString="@string/empty_name"
                 whatever:testErrorString="@string/error_name"
                 android:hint="@string/hint_name" />
@@ -40,6 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:textSize="15sp"
                 android:hint="@string/hint_lastname" />
         </android.support.design.widget.TextInputLayout>
 
@@ -56,6 +58,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:textSize="15sp"
                 android:hint="@string/hint_email" />
         </android.support.design.widget.TextInputLayout>
 
@@ -72,6 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:textSize="15sp"
                 android:hint="@string/hint_phone" />
         </android.support.design.widget.TextInputLayout>
 
@@ -88,6 +92,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
+                android:textSize="15sp"
                 android:hint="@string/hint_runner" />
         </android.support.design.widget.TextInputLayout>
 
@@ -98,6 +103,7 @@
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:text="@string/save"
+            android:textSize="15sp"
             android:id="@+id/save_button"/>
 
         <Button
@@ -107,6 +113,7 @@
             android:layout_width="match_parent"
             android:layout_marginTop="10dp"
             android:text="@string/close"
+            android:textSize="15sp"
             android:id="@+id/close_button"/>
     </LinearLayout>
 </ScrollView>
