@@ -71,7 +71,6 @@ public class DatabaseHandler  extends SQLiteOpenHelper {
         onCreate(db);
     }
 
-
     /**
      *OPERATIONS
      */
