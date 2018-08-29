@@ -36,6 +36,16 @@
                 android:value=".MainActivity" />
         </activity>
 
+        <activity android:name=".RegisterUsersActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Bienvenido"
+            android:keepScreenOn="true"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
         <activity android:name=".EditActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:label="@string/edit">

@@ -11,6 +11,11 @@
         android:icon="@drawable/ic_people"
         android:orderInCategory="1"/>
 
+    <item android:title="@string/menu_usuarios"
+        android:id="@+id/nav_item_users"
+        android:icon="@drawable/ic_person_add"
+        android:orderInCategory="1"/>
+
     <item android:title="@string/menu_acerca"
         android:id="@+id/nav_item_about"
         android:icon="@drawable/ic_info"

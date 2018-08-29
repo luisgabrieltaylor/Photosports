@@ -67,6 +67,11 @@ public class MainActivity extends AppCompatActivity {
                     fragmentTransaction.replace(R.id.containerView,new RunnersFragment(), "myRunners").commit();
                 }
 
+                if (item.getItemId()== R.id.nav_item_users) {
+                    Intent intent = new Intent(MainActivity.this, RegisterUsersActivity.class);
+                    startActivity(intent);
+                }
+
                 if (item.getItemId()== R.id.nav_item_about) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
                     fragmentTransaction.replace(R.id.containerView, new AboutFragment(), "myAbout").commit();

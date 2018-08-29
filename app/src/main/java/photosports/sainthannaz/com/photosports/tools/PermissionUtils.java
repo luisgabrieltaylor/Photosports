@@ -6,6 +6,7 @@ package photosports.sainthannaz.com.photosports.tools;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.FragmentManager;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
@@ -168,5 +169,6 @@ public abstract class PermissionUtils {
                 getActivity().finish();
             }
         }
+
     }
 }

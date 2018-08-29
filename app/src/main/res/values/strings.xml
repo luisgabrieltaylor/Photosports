@@ -37,6 +37,7 @@
     <string name = "menu_principal">Inicio</string>
     <string name = "menu_acerca">Acerca de</string>
     <string name = "menu_registros">Registros</string>
+    <string name = "menu_usuarios">Registro por usuarios</string>
     <string name = "menu_salir">Salir</string>
 
     <!-- DRAWER -->
@@ -50,12 +51,14 @@
     <string name="send_feedback">Enviar sugerencias</string>
 
     <!-- REGISTER -->
+    <string name="welcome">!Bienvenido¡</string>
     <string name="hint_name">Nombre</string>
     <string name="hint_lastname">Apellido</string>
     <string name="hint_phone">Teléfono</string>
     <string name="hint_email">Email</string>
     <string name="hint_runner">Número de corredor</string>
     <string name="register">Registrar</string>
+    <string name="register_b">¡Registrarme!</string>
     <string name="error_name">Nombre no valido</string>
     <string name="empty_name">Nombre vacío</string>
     <string name="error_lastname">No es un apellido valido</string>
@@ -69,6 +72,7 @@
     <string name="validation_error">¡Error en el llenado de los datos!</string>
     <string name="update_message">¡Datos actualizados!</string>
     <string name="success_register">¡Registro exitoso!</string>
+    <string name="success_register_user">¡Gracias por registrarte! Esperamos puedas seguir disfrutando de la experiencia de Photosports</string>
     <string name="delete_db">Borrar BD</string>
     <string name="upload_db">Subir BD</string>
     <string name="export_db">Exportar BD</string>
@@ -81,6 +85,7 @@
     <string name="success_csv">¡Archivo generado!</string>
     <string name="success_erase">¡BD eliminada!</string>
 
+    <string name="message_salir">¿Desea cerrar sesión y salir de la aplicación?</string>
     <!--    Permissions    -->
     <string name="permission_required_phone">Permiso para ocupar en el télefono</string>
     <string name="permission_rationale_location">Es necesario acceder a los servicios de  \'lectura/escritura de datos\'.</string>
