@@ -4,7 +4,9 @@ package photosports.sainthannaz.com.photosports.models;
  * Created by Gabriel on 29/12/2017.
  */
 
-public class Customers {
+public class
+
+Customers {
     int customer_id;
     String customer_name, customer_lastname, customer_email, customer_phone, customer_runner, customer_origin;
 
